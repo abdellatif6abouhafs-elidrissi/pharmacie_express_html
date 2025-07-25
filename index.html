@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaLivr - Livraison de Médicaments à Domicile</title>
+   <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-pills"></i>
+                <span>PharmaLivr</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#produits" class="nav-link">Produits</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Livraison de <span class="highlight">Médicaments</span>
+                    <br>Rapide et Sécurisée
+                </h1>
+                <p class="hero-description">
+                    Recevez vos médicaments directement chez vous en moins de 2 heures. 
+                    Service professionnel, sécurisé et disponible 24h/24.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">
+                        <i class="fas fa-shopping-cart"></i>
+                        Commander Maintenant
+                    </button>
+                    <button class="btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Voir la Démo
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-pills">
+                    <div class="pill pill-1"></div>
+                    <div class="pill pill-2"></div>
+                    <div class="pill pill-3"></div>
+                    <div class="pill pill-4"></div>
+                </div>
+                <div class="delivery-truck">
+                    <i class="fas fa-truck-medical"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Services</h2>
+                <p>Des solutions complètes pour tous vos besoins pharmaceutiques</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Livraison Express</h3>
+                    <p>Livraison en moins de 2 heures pour les commandes urgentes</p>
+                    <div class="service-features">
+                        <span>24h/24</span>
+                        <span>7j/7</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sécurité Garantie</h3>
+                    <p>Transport sécurisé avec respect de la chaîne du froid</p>
+                    <div class="service-features">
+                        <span>Certifié</span>
+                        <span>Traçable</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Conseil Pharmaceutique</h3>
+                    <p>Accompagnement par nos pharmaciens diplômés</p>
+                    <div class="service-features">
+                        <span>Expert</span>
+                        <span>Disponible</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produits" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Produits</h2>
+                <p>Large gamme de médicaments et produits de santé</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-3d">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Médicaments sur Ordonnance</h3>
+                        <p>Tous vos médicaments prescrits par votre médecin</p>
+                        <div class="product-price">Sur ordonnance</div>
+                        <button class="btn-add-to-cart" data-product-name="Médicaments sur Ordonnance">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-3d">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Automédication</h3>
+                        <p>Médicaments sans ordonnance pour les maux du quotidien</p>
+                        <div class="product-price">À partir de 5€</div>
+                        <button class="btn-add-to-cart" data-product-name="Automédication">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-3d">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Parapharmacie</h3>
+                        <p>Produits de beauté, hygiène et bien-être</p>
+                        <div class="product-price">À partir de 3€</div>
+                        <button class="btn-add-to-cart" data-product-name="Parapharmacie">Ajouter au panier</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-3d">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Produits Bébé</h3>
+                        <p>Soins spécialisés pour les tout-petits</p>
+                        <div class="product-price">À partir de 8€</div>
+                        <button class="btn-add-to-cart" data-product-name="Produits Bébé">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">Clients Satisfaits</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="120">0</div>
+                    <div class="stat-label">Minutes Moyenne</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99">0</div>
+                    <div class="stat-label">% de Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">Heures / 24</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contactez-nous</h2>
+                <p>Notre équipe est à votre disposition</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>06 25 03 45 47</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>abdoabouhafess@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>rue 8 casablanca anfa </p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Envoyer le Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-pills"></i>
+                        <span>PharmaLivr</span>
+                    </div>
+                    <p>Votre pharmacie de confiance, disponible 24h/24 pour vos besoins de santé.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Livraison Express</a></li>
+                        <li><a href="#">Ordonnances</a></li>
+                        <li><a href="#">Parapharmacie</a></li>
+                        <li><a href="#">Conseil</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Conditions</a></li>
+                        <li><a href="#">Confidentialité</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>00 212 6 25 03 45 47</li>
+                        <li>abdoabouhafess@gmail.com</li>
+                        <li>casablanca</li>
+                        <li>20000 casablanca</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> 2024 PharmaLivr. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
